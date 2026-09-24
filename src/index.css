@@ -1,0 +1,110 @@
+@import "tailwindcss";
+
+@theme {
+  --color-surface-variant: #e0e3e6;
+  --color-on-primary: #ffffff;
+  --color-inverse-surface: #2d3133;
+  --color-outline: #717783;
+  --color-surface-container-high: #e6e8eb;
+  --color-secondary-container: #d4dffe;
+  --color-tertiary-container: #cba800;
+  --color-surface-container-highest: #e0e3e6;
+  --color-on-tertiary: #ffffff;
+  --color-primary-fixed-dim: #a1c9ff;
+  --color-error-container: #ffdad6;
+  --color-inverse-on-surface: #eff1f4;
+  --color-secondary-fixed: #d8e2ff;
+  --color-inverse-primary: #a1c9ff;
+  --color-background: #f7f9fc;
+  --color-secondary-fixed-dim: #bbc6e4;
+  --color-on-error: #ffffff;
+  --color-on-primary-container: #fdfcff;
+  --color-on-tertiary-container: #4c3e00;
+  --color-on-primary-fixed: #001c38;
+  --color-on-tertiary-fixed: #231b00;
+  --color-surface-container-lowest: #ffffff;
+  --color-primary-fixed: #d3e4ff;
+  --color-primary: #005ea4;
+  --color-on-surface: #191c1e;
+  --color-tertiary: #715d00;
+  --color-on-secondary-fixed-variant: #3c475f;
+  --color-on-secondary-fixed: #101b31;
+  --color-surface-bright: #f7f9fc;
+  --color-on-secondary: #ffffff;
+  --color-on-error-container: #93000a;
+  --color-tertiary-fixed: #ffe177;
+  --color-surface: #f7f9fc;
+  --color-on-surface-variant: #404752;
+  --color-secondary: #535e78;
+  --color-error: #ba1a1a;
+  --color-surface-container: #eceef1;
+  --color-surface-container-low: #f2f4f7;
+  --color-tertiary-fixed-dim: #ebc300;
+  --color-on-tertiary-fixed-variant: #554500;
+  --color-on-background: #191c1e;
+  --color-outline-variant: #c0c7d4;
+  --color-on-secondary-container: #57627c;
+  --color-surface-tint: #0060a8;
+  --color-on-primary-fixed-variant: #004880;
+  --color-surface-dim: #d8dadd;
+  --color-primary-container: #0677cd;
+
+  --spacing-space-lg: 1.5rem;
+  --spacing-gutter-mobile: 0.75rem;
+  --spacing-gutter: 1.25rem;
+  --spacing-space-xs: 0.25rem;
+  --spacing-space-md: 1rem;
+  --spacing-margin: 2rem;
+  --spacing-space-sm: 0.5rem;
+  --spacing-space-xl: 2.5rem;
+  --spacing-margin-mobile: 1rem;
+
+  --font-headline-lg-mobile: 'Barlow Condensed', sans-serif;
+  --font-title-md: 'Inter', sans-serif;
+  --font-headline-lg: 'Barlow Condensed', sans-serif;
+  --font-body-sm: 'Inter', sans-serif;
+  --font-label-code: 'Space Grotesk', monospace;
+  --font-body-md: 'Inter', sans-serif;
+  --font-headline-sm: 'Barlow Condensed', sans-serif;
+  --font-title-lg: 'Inter', sans-serif;
+  --font-headline-md: 'Barlow Condensed', sans-serif;
+  --font-display: 'Barlow Condensed', sans-serif;
+  --font-body-lg: 'Inter', sans-serif;
+  --font-label-technical: 'Space Grotesk', monospace;
+}
+
+@layer base {
+  html, body {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    overscroll-behavior: none;
+  }
+}
+
+.no-scrollbar::-webkit-scrollbar,
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar,
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Material symbol fallback sizes */
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+}

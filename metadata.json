@@ -1,0 +1,6 @@
+{
+  "name": "NCGT Neumáticos El Coyote y sus Gemelos",
+  "description": "Venta de neumáticos, servicio especializado a flotillas, inspección técnica y atención en Carretera Estatal 100 Querétaro.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
